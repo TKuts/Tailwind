@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
 	<meta charset="UTF-8">
@@ -13,9 +13,33 @@
 	<title>Crafts</title>
 </head>
 
-<body class="font-sans">
-	<h1 class="text-3xl bg-red-100">Simple Tailwind Starter</h1>
-	<h2>Hello world</h2>
+<body class="font-main">
+	<header id="header"
+		class="flex items-center justify-between mx-auto px-5 pb-4 pt-10 space-x-8 border-b border-myBrown lg:border-none lg:container">
+
+		<div class="flex">
+			<p class="font-yeseva text-base text-myBrown md:text-lg lg:text-2xl">РУКОДІЛЛЯ З ДУШЕЮ</p>
+		</div>
+
+		<nav>
+
+			<ul class="hidden lg:flex text-myBlue text-lg space-x-4  xl:text-xl xl2:space-x-14">
+				<li><a href="#">Про нас</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Індивідуальне замовлення</a></li>
+				<li><a href="#">Відгуки</a></li>
+				<li><a href="#">Контакти</a></li>
+			</ul>
+
+			<!-- Hamburger Menu -->
+			<button id="menu-btn" class="block hamburger lg:hidden focus:outline-none" type="button">
+				<span class="hamburger-top"></span>
+				<span class="hamburger-middle"></span>
+				<span class="hamburger-bottom"></span>
+			</button>
+		</nav>
+
+	</header>
 </body>
 
 </html>
