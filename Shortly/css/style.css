@@ -592,16 +592,12 @@ video {
   left: 4rem;
 }
 
-.left-7 {
-  left: 1.75rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
 .left-6 {
   left: 1.5rem;
+}
+
+.left-7 {
+  left: 1.75rem;
 }
 
 .right-6 {
@@ -610,6 +606,10 @@ video {
 
 .top-20 {
   top: 5rem;
+}
+
+.top-24 {
+  top: 6rem;
 }
 
 .mx-auto {
@@ -803,11 +803,6 @@ video {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-gray-50 {
-  --tw-border-opacity: 1;
-  border-color: rgb(249 250 251 / var(--tw-border-opacity));
 }
 
 .border-gray-400 {
